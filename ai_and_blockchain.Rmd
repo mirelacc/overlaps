@@ -1,9 +1,17 @@
 
 
 - https://www.wired.com/2017/03/google-deepminds-untrendy-blockchain-play-make-actually-useful/
+- https://www.cryptocoinsnews.com/google-owned-ai-firm-teams-with-hospital-on-blockchain-like-project-faces-patient-concerns-over-data/
+
 - https://www.ftc.gov/news-events/events-calendar/2017/03/fintech-forum-blockchain-artificial-intelligence
+
 - https://blog.bigchaindb.com/blockchains-for-artificial-intelligence-ec63b0284984#.7yyepxxv9 
+
 - http://www.huffingtonpost.com/entry/how-ai-and-blockchain-will-change-business-organization_us_58cc33f5e4b07112b6472d4a 
+
 - http://www.telegraph.co.uk/business/2017/03/17/bank-england-trials-artificial-intelligence-blockchain-bid-stay/
+
 - http://www.cio.com/article/3157477/healthcare/how-ai-and-blockchain-are-driving-precision-medicine-in-2017.html
+
+
 
