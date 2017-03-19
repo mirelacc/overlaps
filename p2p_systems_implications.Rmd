@@ -13,7 +13,7 @@
 
 # Trust
 
-Mechanisms:
+System-mechanisms:
 
 - Sybil-resistant trust mechanisms in distributed systems: "[...] the problem of estimating trust in distributed systems is considered" http://repository.tudelft.nl/islandora/object/uuid%3A17adc7bd-5c82-4ad5-b1c8-a8b85b23db1f?collection=education4
 
@@ -21,7 +21,9 @@ Within humans:
 
 - https://www.youtube.com/watch?v=ORtbzAk0v4Q 
 - https://www.youtube.com/watch?v=oDFxprmmlqg
-
+- http://www.danielwigboldus.nl/site/Home.html
+- Social Decision-Making: Insights from Game Theory and Neuroscience: http://science.sciencemag.org/content/318/5850/598.full
+- Neuroscience of Social Decision-Makin: http://annualreviews.org/doi/abs/10.1146/annurev.psych.121208.131647
 
 # Thoughts on economics
 
