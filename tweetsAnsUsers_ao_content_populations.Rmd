@@ -1,0 +1,166 @@
+
+# 1st Setup
+
+01 - Select tweets & users based on keywords
+
+- use a set of keywords related to a theme
+- 
+
+- https://github.com/mirelacc/text_topics_bias/blob/master/NLP_ML.Rmd
+
+
+02 - Perform basic topic detection
+
+- check whether certain keywords are often used in combination with other ones
+- see what topics are used a lot in general within the selected population of users
+
+
+(03a - optional - Discovering individuals (profiling))
+
+- Part of entity resolution, collective classification, and to a degree link prediction:
+- https://www.youtube.com/watch?v=-sccHBewf5Q
+- https://www.youtube.com/watch?v=fEY0MUC8ND0
+- https://www.youtube.com/watch?v=YsQEg6OroiQ
+- http://infolab.stanford.edu/serf/
+
+
+03 - Locate users 
+
+- check for mentions of cities/regions/areas
+- use GPS, if available
+- see with other settings?
+
+
+04 - Determine basic connectedness and network metrics of users
+
+- see who's very connected
+- and who's very un-connected
+- relate to keywords/topics 
+
+
+
+05 - Infer influence and propagation
+
+Check:
+
+- http://www.slideshare.net/drewconway/mining-social-graph-data?130 page 9
+- http://www.nature.com/articles/srep02980
+
+To identify key actors, various centrality metrics can be computed based on a network’s structure 
+
+- Degree (number of connections) 
+- Betweenness (number of shortest paths an actor is on) 
+- Closeness (relative distance to all other actors) 
+- Eigenvector centrality (leading eigenvector of sociomatrix) 
+- One method for using these metrics to identify key actors is to plot actors’ scores for Eigenvector centrality versus Betweenness. Theoretically, these metrics should be approximately linear; therefore, any non-linear outliers will be of note. 
+An actor with very high betweenness but low EC may be a critical gatekeeper to a central actor. Likewise, an actor with low betweenness but high EC may have unique access to central actors
+
+Using data about the propagation of the Higgs discovery to find populations as well as propagaion. 
+
+- Source: http://snap.stanford.edu/data/higgs-twitter.html
+- 1 - re-tweeting (retweet network)
+- 2 - replying (reply network) to existing tweets
+- 3 - mentioning (mention network) other users
+- 4 - friends/followers social relationships among user involved in the above activities
+- 5 - information about activity on Twitter during the discovery of Higgs boson
+
+
+# More resources
+
+- https://blog.karna.ai/how-can-ai-help-you-listen-to-the-open-web-8d7c0827f9ec#.s3drf485e
+- http://twitter.mpi-sws.org/
+- http://www.slideshare.net/drewconway/mining-social-graph-data
+- http://www.slideshare.net/AmarMyana1/graph-mining-graph-patterns-social-network-set-list-valued-attribute-spatial-data
+- http://www.slideshare.net/ontotext/the-knowledge-discovery-quest
+
+More:
+
+- https://www.cs.cornell.edu/home/kleinber/
+
+SNAP:
+
+- https://arxiv.org/pdf/1606.07550.pdf
+- https://snap.stanford.edu/snappy/index.html#download
+- https://snap.stanford.edu/papers.html
+- https://snap.stanford.edu/snappy/release/
+- http://snap.stanford.edu/proj/snap-www/
+- https://snap.stanford.edu/snappy/doc/index.html
+- https://snap.stanford.edu/snappy/index.html#docs
+- https://snap.stanford.edu/snappy/doc/tutorial/index-tut.html
+- https://snap.stanford.edu/snappy/doc/tutorial/tutorial.html#computing-structural-properties
+- http://snap.stanford.edu/snap/doc/snapuser-ref/
+- http://snap.stanford.edu/snap/doc/snapuser-ref/index.html
+
+Maximizing the Spread of Influence through a Social Network
+
+- http://www.cims.nyu.edu/~regev/toc/articles/v011a004/v011a004.pdf
+
+Data/examples:
+
+- http://blog.kaggle.com/2016/06/03/dataset-spotlight-how-isis-uses-twitter/
+- https://snap.stanford.edu/data/higgs-twitter.html
+
+
+
+# More on network metrics:
+
+- https://snap.stanford.edu/snappy/doc/reference/index-ref.html
+- https://snap.stanford.edu/snappy/doc/tutorial/tutorial.html#computing-structural-properties
+ 
+Overlapping & non-overlapping clusters/communities
+
+K-clique algorithm:
+
+- (+ mixed-membership stochastic block models, Airoldi et al. -> prodability distribution of community memberships, for every pair of communities you know the background linking probability for that pair)
+
+Discovering communities:
+
+- 1 - take dataset, 2 - represent as graph, 3 - identify communities (or clusters), 4 - interpret clusters as real communities.  Look at ground-truth, true latent clusters. Find networks with labels for clusters ahead of time: Scientific collaborations:  journals as research areas. Social networks: groups, lists. Information networks: topic based groups. A node can be a member of 0 or more group […]
+
+- "Guaranteed Learning of Latent Variable Models: Overlapping Community Models and Overcomplete Representations Incorporating latent or hidden variables is a crucial aspect of statistical modeling. I will present a statistical and a computational framework for guaranteed learning of a wide range of latent variable models. I will focus on two instances, viz., community detection and overcomplete representations. The goal of community detection is to discover hidden communities from graph data. I will present a tensor decomposition approach for learning probabilistic mixed membership models. The tensor approach is guaranteed to correctly recover the mixed membership communities with tight guarantees. We have deployed it on many real-world networks, e.g. Facebook, Yelp and DBLP. It is easily parallelizable, and is orders  of magnitude faster than the state-of-art stochastic variational approach."
+- https://www.youtube.com/watch?v=7BKsmmxDq6Y
+
+
+Granovetter: small-worlds, strong & weak ties
+
+- Girvan-Newman betweenness centrality
+- http://engineering.stanford.edu/news/big-questions-big-data-stanfords-jure-leskovec
+
+Information Flow and Graph Structure in Online Social Networks:
+
+- https://www.youtube.com/watch?v=iccgU1ul13E
+- Detecting Communities Using Information Flow in Social Networks: The algorithms developed to detect such communities usually consider the structural properties of the network, i.e. the static links between nodes. [...] for example, “friendship” links on Facebook or “followers” on Twitter. We argue that these kinds of static links are not indicative of the real community structure underlying these networks, since users of social media usually have hundreds of connections even with people they are only acquaintances with. [...] We find that by explicitly incorporating the observed dynamics of users in social media, we can identify communities hidden in the structural network. 
+- http://www.google.nl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwj53vC47czQAhXCPxoKHfc8AfMQFgg2MAM&url=http%3A%2F%2Fsantafe.edu%2Fmedia%2Fcms_page_media%2F500%2FCSSS13-dynComPaper%2520(2)_1.pdf&usg=AFQjCNFFMio2I6gvl2uLtioMUm5nEQGuFg&sig2=ouMgnFzz8Bmy96X1FlPoLA
+
+
+Mining Large Graphs:
+
+- http://slideplayer.com/slide/4741541/
+- Affiliation Network Models for Densely Overlapping Communities in Networks, Jure Leskovec, Stanford University
+- Networks are a general language for describing social, tech- nological and biological systems. Nodes in such networks organize into densely linked and overlapping clusters that correspond to communities in social networks, functionally related proteins in biological networks, or topically related webpages in information networks. Identifying such clusters is crucial to the understanding of the structural and func- tional roles of networks.
+- https://www.youtube.com/watch?v=htWQWN1xAZQ
+
+
+# Additional ideas/possibilities:
+
+- get 5-10 of biggest* news providers (NL) in twitter
+- get 1-2 neutral/fact based news providers (cbs/? see: e.g. www.pewresearch.org/fact-tank/ 
+- + https://twitter.com/FactTank)
+- measure:
+- + tweet frequency
+- + followers
+- + number of retweets
+- + sentiment (general)
+- + topic bias (1 - proportion of specific topics mentioned / not mentioned, 2  bias in sentiment towards topiccs)
+- + propagation (1 - centrality measures, 2 - reach, 3 - membership of ammount of clusters)
+- And also:
+- + Discovering most frequent topics + sentiment used by 1) communities, 2) individuals
+- + Use ABSA in relation to clusters, and individuals.
+
+
+Compare predictive value of content within a community(setting) vs. network-structure
+
+- "[...] we find changes in network structure predict shifts in cognitive and affective processes, execution of new transactions, and local optimality of transactions better than prices, revealing the important predictive relationship between network 
+structure and collective behavior within a social network." https://www.kellogg.northwestern.edu/faculty/uzzi/htm/papers/Social%20Networks%20Under%20Stress%20-%20Jan2016.pdf 
+
+
