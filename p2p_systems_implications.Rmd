@@ -15,8 +15,14 @@
 
 # Trust
 
-- Sybil-resistant trust mechanisms in distributed systems
-- "[...] the problem of estimating trust in distributed systems is considered" http://repository.tudelft.nl/islandora/object/uuid%3A17adc7bd-5c82-4ad5-b1c8-a8b85b23db1f?collection=education4
+Mechanisms:
+
+- Sybil-resistant trust mechanisms in distributed systems: "[...] the problem of estimating trust in distributed systems is considered" http://repository.tudelft.nl/islandora/object/uuid%3A17adc7bd-5c82-4ad5-b1c8-a8b85b23db1f?collection=education4
+
+Within humans:
+
+- https://www.youtube.com/watch?v=ORtbzAk0v4Q 
+- https://www.youtube.com/watch?v=oDFxprmmlqg
 
 
 # Thoughts on economics
