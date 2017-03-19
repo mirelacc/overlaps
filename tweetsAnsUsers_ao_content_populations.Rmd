@@ -145,6 +145,31 @@ Mining Large Graphs:
 - + Use ABSA in relation to clusters, and individuals.
 
 
+- Follower counts don’t tell you anything about who follows them, or whether these followers have any interest in your product or service. You need to pay attention to a user’s influence within a specific domain. A user with a few thousand followers, most of whom share a common interest, can be much more valuable in spreading your marketing message.
+- Focus on a specific domain by aggregating tweets. The first step is collecting tweets for a specific set of keywords that apply to your marketing message. Whether you use the search or streaming API to do this, you will also receive information about the user who sent the tweet. This user info should also be saved in the tweet aggregation database. If you store the user’s screen name or user_id with each tweet, you will be able to gather information about people who tweet with your keywords with a simple SQL query of your database.
+
+Collect user mention data
+
+    When you add a tweet to your aggregation database, you should parse out any @user mentions in the tweet text. This can be     combined with the user name of the person sending the tweet and stored in a separate table along with the tweet id. You       should create a table in your tweet database with the following structure:
+     CREATE TABLE `mentions` (
+    `tweet_id` bigint(20) unsigned NOT NULL,
+    `source_screen_name` varchar(20) NOT NULL,
+    `target_screen_name` varchar(20) NOT NULL,
+    KEY `tweet_id` (`tweet_id`),
+    KEY `source_screen_name` (`source_screen_name`),
+    KEY `target_screen_name` (`target_screen_name`)
+    ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+    If @fred mentions @sally in a tweet, you add a row to the mentions table with Fred as the source and Sally as the target.     Then you can extract the users that are mentioned the most with a SQL query as follows:
+    SELECT count( * ) AS cnt, target_screen_name
+    FROM mentions
+    GROUP BY target_screen_name
+    ORDER BY cnt DESC
+
+- This query gives you a list of the users who are mentioned most often in tweets that contained your desired keywords. This is a much more reliable measure of influence in a specific area than a count of total followers.
+- You can use this list of screen names to create a list of people you should follow and try to engage with on Twitter. Directing your efforts to a few hundred key influencers in any field will allow you to reach a large number of people who will find you marketing message interesting.
+
+
 Compare predictive value of content within a community(setting) vs. network-structure
 
 - "[...] we find changes in network structure predict shifts in cognitive and affective processes, execution of new transactions, and local optimality of transactions better than prices, revealing the important predictive relationship between network structure and collective behavior within a social network." https://www.kellogg.northwestern.edu/faculty/uzzi/htm/papers/Social%20Networks%20Under%20Stress%20-%20Jan2016.pdf 
