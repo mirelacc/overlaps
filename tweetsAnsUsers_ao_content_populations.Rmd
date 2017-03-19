@@ -40,6 +40,7 @@
 
 Check:
 
+- Network Topography and Subgroup Analysis in igraph package in R: https://www.youtube.com/watch?v=ZJfsihTfKwY
 - http://www.slideshare.net/drewconway/mining-social-graph-data?130 page 9
 - http://www.nature.com/articles/srep02980
 
