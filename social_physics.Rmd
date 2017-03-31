@@ -21,3 +21,9 @@ Alex Pentland:
 - https://youtu.be/C-wHdSJM_GI?t=477
 - https://youtu.be/tzDmPu3yGNQ?t=216
 
+Some research:
+
+- http://realitycommons.media.mit.edu/pdfs/realitymining_old.pdf
+- https://dspace.mit.edu/bitstream/handle/1721.1/49446/Eagle_Eigenbehaviors.pdf?sequence=1 
+- https://arxiv.org/pdf/1610.08342.pdf citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.479.3489&rep=rep1&type=pdf  
+- s3.amazonaws.com/academia.edu.documents/45748845/template.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1490944004&Signature=nI%2BVbETzew8FgChJFc980yLOBQY%3D&response-content-disposition=inline%3B%20filename%3DThe_Role_of_Personality_in_Shaping_Socia.pdf
