@@ -26,7 +26,7 @@ Poverty + crime + health:
 
 Aggregated data and crime prediction:
 
-- Moves on the Street: Classifying Crime Hotspots Using Aggregated Anonymized Data on People Dynamics file:///home/bigdata09/projs/pentland/crime/bogomolov2015.pdf
+- Moves on the Street: Classifying Crime Hotspots Using Aggregated Anonymized Data on People Dynamics http://moscow.sci-hub.cc/baf49039a0eead47b27681ba1cb18399/bogomolov2015.pdf
 - Once Upon a Crime: Towards Crime Prediction from Demographics and Mobile Data https://arxiv.org/pdf/1409.2983.pdf
 - RoboCop: Crime Classification and Prediction in San Francisco http://cs229.stanford.edu/proj2015/254_report.pdf
 - Urban characteristics attributable to density-driven tie formation: http://www.nature.com/articles/ncomms2961?wt.ec_id=ncomms-20130605
@@ -35,7 +35,7 @@ Aggregated data and crime prediction:
 
 Peripherally related to crime:
 
-- Stealing Reality: When Criminals Become Data Scientists "[...] the goal of this type of attack is to steal social network and behavioral information through data collection and network science inference techniques. We call this type of attack a “Stealing Reality” attack." hd.media.mit.ed/tech-reports/TR-669.pdf " [...] we demonstrate that our model provides a robust and accurate fit for the dependency of city characteristics with city-size, ranging from individual-level dyadic interactions (number of acquaintances, volume of communication) to population level variables (contagious disease rates, patenting activity, economic productivity and crime) [...]"
+- Stealing Reality: When Criminals Become Data Scientists "[...] the goal of this type of attack is to steal social network and behavioral information through data collection and network science inference techniques. We call this type of attack a “Stealing Reality” attack." www.hd.media.mit.ed/tech-reports/TR-669.pdf " [...] we demonstrate that our model provides a robust and accurate fit for the dependency of city characteristics with city-size, ranging from individual-level dyadic interactions (number of acquaintances, volume of communication) to population level variables (contagious disease rates, patenting activity, economic productivity and crime) [...]"
 
 
 Some research:
@@ -43,7 +43,7 @@ Some research:
 - http://realitycommons.media.mit.edu/pdfs/realitymining_old.pdf
 - https://dspace.mit.edu/bitstream/handle/1721.1/49446/Eagle_Eigenbehaviors.pdf?sequence=1 
 - https://arxiv.org/pdf/1610.08342.pdf 
-- citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.479.3489&rep=rep1&type=pdf  
+- www.citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.479.3489&rep=rep1&type=pdf  
 - s3.amazonaws.com/academia.edu.documents/45748845/template.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1490944004&Signature=nI%2BVbETzew8FgChJFc980yLOBQY%3D&response-content-disposition=inline%3B%20filename%3DThe_Role_of_Personality_in_Shaping_Socia.pdf
 - https://arxiv.org/pdf/1610.07004.pdf
 - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/
