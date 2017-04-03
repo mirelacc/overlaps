@@ -29,11 +29,13 @@ Aggregated data and crime prediction:
 - Moves on the Street: Classifying Crime Hotspots Using Aggregated Anonymized Data on People Dynamics file:///home/bigdata09/projs/pentland/crime/bogomolov2015.pdf
 - Once Upon a Crime: Towards Crime Prediction from Demographics and Mobile Data https://arxiv.org/pdf/1409.2983.pdf
 - RoboCop: Crime Classification and Prediction in San Francisco http://cs229.stanford.edu/proj2015/254_report.pdf
+- Urban characteristics attributable to density-driven tie formation: http://www.nature.com/articles/ncomms2961?wt.ec_id=ncomms-20130605
+
+
 
 Peripherally related to crime:
 
-- Stealing Reality: When Criminals Become Data Scientists "[...] the goal of this type of attack is to steal social network and behavioral information through data collection and network science inference techniques. We call this type of attack a “Stealing Reality” attack." hd.media.mit.ed/tech-reports/TR-669.pdf
-
+- Stealing Reality: When Criminals Become Data Scientists "[...] the goal of this type of attack is to steal social network and behavioral information through data collection and network science inference techniques. We call this type of attack a “Stealing Reality” attack." hd.media.mit.ed/tech-reports/TR-669.pdf " [...] we demonstrate that our model provides a robust and accurate fit for the dependency of city characteristics with city-size, ranging from individual-level dyadic interactions (number of acquaintances, volume of communication) to population level variables (contagious disease rates, patenting activity, economic productivity and crime) [...]"
 
 
 Some research:
