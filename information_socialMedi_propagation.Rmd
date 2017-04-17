@@ -1,0 +1,6 @@
+ 
+ - Human language reveals a universal positivity bias https://arxiv.org/abs/1406.3855 
+ - Shadow networks: Discovering hidden nodes with models of information flow https://arxiv.org/abs/1312.6122 
+ - Climate change sentiment on Twitter: An unsolicited public opinion poll https://arxiv.org/abs/1505.03804
+ - Forecasting the onset and course of mental illness with Twitter data https://arxiv.org/abs/1608.07740
+ - Public Opinion Polling with Twitter https://arxiv.org/abs/1608.02024
