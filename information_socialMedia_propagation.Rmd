@@ -4,3 +4,9 @@
  - Climate change sentiment on Twitter: An unsolicited public opinion poll https://arxiv.org/abs/1505.03804
  - Forecasting the onset and course of mental illness with Twitter data https://arxiv.org/abs/1608.07740
  - Public Opinion Polling with Twitter https://arxiv.org/abs/1608.02024
+
+
+info-propagatie van content op social media:
+
+- “Trends detection of flu based on ensemble models with emotional factors from social networks” http://onlinelibrary.wiley.com/doi/10.1002/tee.22389/full
+- “The Anatomy of a Scientific Rumor” http://www.nature.com/articles/srep02980 → idee kan mogelijk voor andere context gebruikt worden?
