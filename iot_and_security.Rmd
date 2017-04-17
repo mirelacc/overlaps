@@ -1,0 +1,3 @@
+
+- http://iottechday.nl/sessions/threats-and-challenges-in-iot-not-just-a-matter-of-security/ 
+- https://argus-sec.com/remote-attack-bosch-drivelog-connector-dongle/
